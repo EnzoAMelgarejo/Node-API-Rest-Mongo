@@ -4,7 +4,8 @@
   "description": "base de datos mongo",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/app.js"
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
   },
   "author": "EnzoMelgarejo",
   "license": "ISC",

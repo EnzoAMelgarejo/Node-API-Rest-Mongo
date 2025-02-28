@@ -1,3 +1,7 @@
+// Este archivo define las rutas y operaciones CRUD para las películas. Utiliza el modelo 'Movie' para interactuar con la base de datos.
+// Las rutas permiten obtener, crear, actualizar, parchear y eliminar películas. Además, incluye un middleware 'getMovie' que se encarga
+// de validar y obtener una película por su ID para las rutas que lo requieren.
+
 const express = require('express');
 const router = express.Router();
 const Movie = require('../models/movies.model.js');

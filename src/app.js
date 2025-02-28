@@ -1,3 +1,7 @@
+// Este archivo configura el servidor Express para manejar solicitudes HTTP y realizar operaciones CRUD sobre películas.
+// Utiliza MongoDB como base de datos, gestionada mediante Mongoose. Se cargan las variables de entorno con dotenv
+// y se configuran las rutas para gestionar las películas. El servidor escucha en el puerto configurado o el 3000 por defecto.
+
 const express = require('express')
 const {config} = require('dotenv')
 const mongoose = require('mongoose')
